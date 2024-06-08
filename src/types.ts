@@ -1,6 +1,3 @@
-export interface User {
-    id: number;
-    name: string;
-    username: string;
-    email: string;
+export class Userlist {
+    data: any[] = [];
 }
